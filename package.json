@@ -10,6 +10,8 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@types/react-intl": "^3.0.0",
+    "intl": "^1.2.5",
     "react": "17.0.2",
     "react-native": "0.66.4"
   },

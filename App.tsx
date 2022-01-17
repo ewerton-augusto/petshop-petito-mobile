@@ -1,14 +1,10 @@
 import React from 'react';
-import { View } from 'react-native';
-
 import Services from './src/pages/Services';
+import 'intl';
+import 'intl/locale-data/jsonp/pt-BR';
 
 const App = () => {
-  return (
-    <View>
-      <Services />
-    </View>
-  );
+  return <Services />;
 };
 
 export default App;
